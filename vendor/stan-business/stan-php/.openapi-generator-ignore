@@ -1,0 +1,15 @@
+# Add files to ignore files update when updating with open-api
+
+# It implements custom Api
+docs/Api/*
+lib/Api/*
+lib/Utils/*
+
+# Don't touch core functions
+lib/ApiException.php
+lib/Configuration.php
+lib/HeaderSelector.php
+lib/ObjectSerializer.php
+
+README.md
+composer.json
